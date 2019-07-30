@@ -1,1 +1,2 @@
-#chatApp
+# chatApp with RectJs&Socket.io
+
