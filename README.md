@@ -1,2 +1,3 @@
-# chatApp with RectJs&Socket.io
+# chatApp with RectJs&Socket.io&TypeScript
+
 
