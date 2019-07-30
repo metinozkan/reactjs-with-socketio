@@ -1,0 +1,67 @@
+{
+	"name": "reactjswithsocketio",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "webpack-dev-server --open --mode development --watch --config webpack.config.js",
+		"dev": "webpack --watch --mode=development --config webpack.config.js ",
+		"prod": "webpack --mode=production --config webpack.config.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/metinozkan/reactjs-with-socketio.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/metinozkan/reactjs-with-socketio/issues"
+	},
+	"homepage": "https://github.com/metinozkan/reactjs-with-socketio#readme",
+	"dependencies": {
+		"babel-loader": "8.0.5",
+		"express": "^4.17.1",
+		"react": "^16.2.0",
+		"react-dom": "^16.2.0",
+		"react-redux": "^6.0.0",
+		"react-router": "^4.3.1",
+		"react-router-dom": "^4.3.1",
+		"redux": "^4.0.1",
+		"redux-thunk": "^2.3.0",
+		"socket.io": "^2.2.0",
+		"styled-components": "^4.3.2",
+		"webpack-dev-server": "^3.7.2"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.2.2",
+		"@babel/plugin-proposal-class-properties": "^7.3.0",
+		"@babel/plugin-syntax-dynamic-import": "^7.2.0",
+		"@babel/preset-env": "^7.3.1",
+		"@babel/preset-react": "^7.0.0",
+		"@babel/preset-stage-2": "^7.0.0",
+		"@types/react": "^16.8.23",
+		"@types/react-dom": "^16.8.5",
+		"babel": "^6.23.0",
+		"compression-webpack-plugin": "^2.0.0",
+		"css-loader": "^2.1.0",
+		"extract-css-chunks-webpack-plugin": "^3.3.2",
+		"extract-text-webpack-plugin": "^3.0.2",
+		"html-loader": "^0.5.5",
+		"html-webpack-plugin": "^3.2.0",
+		"mini-css-extract-plugin": "^0.5.0",
+		"node-sass": "^4.11.0",
+		"postcss-loader": "^3.0.0",
+		"sass-loader": "^7.1.0",
+		"source-map-loader": "^0.2.4",
+		"style-loader": "^0.23.1",
+		"terser-webpack-plugin": "^1.3.0",
+		"ts-loader": "^6.0.4",
+		"typescript": "^3.5.3",
+		"uglifyjs-webpack-plugin": "^2.1.3",
+		"webpack": "^4.29.3",
+		"webpack-cli": "^3.3.6",
+		"webpack-livereload-plugin": "^2.2.0",
+		"webpack-visualizer-plugin": "^0.1.11"
+	}
+}
