@@ -8,7 +8,7 @@ Use the package manager npm
 npm install 
 ```
 
-##Run
+## Run
 
 
 ```bash
