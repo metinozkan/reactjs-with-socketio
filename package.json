@@ -21,7 +21,7 @@
 	"homepage": "https://github.com/metinozkan/reactjs-with-socketio#readme",
 	"dependencies": {
 		"babel-loader": "8.0.5",
-		"express": "^4.17.1",
+		"express": "^4.17.3",
 		"react": "^16.2.0",
 		"react-dom": "^16.2.0",
 		"react-redux": "^6.0.0",
